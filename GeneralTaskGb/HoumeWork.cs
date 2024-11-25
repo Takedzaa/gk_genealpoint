@@ -2,13 +2,13 @@
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Пожалуйста, Введите элементы массива через запятую:");
+        Console.WriteLine("Please enter the array elements separated by commas:");
         string input = Console.ReadLine();
         string[] initialArray = input.Split(',');
 
         string[] filteredArray = FilterShortStrings(initialArray, 3);
 
-        Console.WriteLine("Результат:");
+        Console.WriteLine("Resalt:");
         Console.WriteLine($"[{string.Join(", ", filteredArray)}]");
     }
 
@@ -19,7 +19,7 @@
         {
             if (str.Trim().Length <= maxLength) count++;
         }
-        
+
         string[] result = new string[count];
         int index = 0;
         foreach (string str in array)
