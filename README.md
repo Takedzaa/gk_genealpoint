@@ -10,3 +10,8 @@
 
 Ввод: Russia, Denmark, Kazan
 Вывод: []
+
+Блок схема алгоритма:
+
+![image](https://github.com/user-attachments/assets/db25a260-88ea-4321-b168-89cacd4f5a33)
+
